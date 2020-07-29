@@ -51,13 +51,13 @@ h1 {
   justify-content: center;
   padding: 1vh;
 }
-#footer img{
-  height: 40vh;
+#footer img {
+  width: 30vh;
   display: flex;
   justify-content: center;
 }
 #footer img:hover{
-  height: 41vh;
+  width: 30vh;
   display: flex;
   justify-content: center;
 }
