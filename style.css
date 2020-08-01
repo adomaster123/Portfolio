@@ -8,6 +8,8 @@ html {
 }
 img {
   max-height: 200px;
+  transition-property: scale;
+  transition-duration: 0.1s;
 }
 img:hover {
   scale: 1.1;
@@ -29,6 +31,8 @@ img:hover {
 }
 .nav-links {
   display: inline;
+  transition-property: font-weight;
+  transition-duration: 0.1s;
 }
 .nav-links:hover {
   font-weight: bold;
@@ -84,6 +88,10 @@ a {
   z-index: 999;
   background: white;
 }
-.project-tile h2:hover{
+.project-tile h2 {
+  transition-property: font-size;
+  transition-duration: 0.1s;
+}
+.project-tile h2:hover {
   font-size: 1.55em;
 }
