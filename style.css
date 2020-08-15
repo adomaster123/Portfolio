@@ -19,6 +19,7 @@ img:hover {
   top: 0px;
   width: 100vw;
   z-index: 99999999;
+  transition: all .4s ease;
 }
 #nav-items {
   background: none;

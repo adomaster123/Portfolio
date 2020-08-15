@@ -65,6 +65,18 @@
 <div id="contact">
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfb8jdjwKsXCfbwAZleeVy83kJn--mX9ddftMs5k0OZxcsXxA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 <!-- partial -->
   
 </body>
