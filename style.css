@@ -63,7 +63,7 @@ a {
   margin: 0 auto; 
   letter-spacing: .15em;
   animation: 
-    typing 1.25s steps(13, end),
+    typing 1.25s steps(16, end),
     blink-caret .75s step-end infinite;
 }
 @keyframes typing {
