@@ -112,6 +112,8 @@ a {
 .project-tile h2 {
   transition-property: font-size;
   transition-duration: 0.1s;
+  text-decoration: underline;
+  color: lightblue;
 }
 .project-tile h2:hover {
   font-size: 1.55em;
