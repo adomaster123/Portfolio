@@ -14,7 +14,7 @@ img:hover {
   transform: scale(1.1);
 }
 #navbar {
-  background: #ccc;
+  background: white;
   position: fixed;
   top: 0px;
   width: 100vw;
