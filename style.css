@@ -31,11 +31,11 @@ img:hover {
 }
 .nav-links {
   display: inline;
-  transition-property: font-weight;
+  transition-property: all;
   transition-duration: 0.1s;
 }
 .nav-links:hover {
-  font-weight: bold;
+  text-decoration: underline;
 }
 a {
   text-decoration: none;
@@ -110,13 +110,12 @@ a {
   border: 0;
 }
 .project-tile h2 {
-  transition-property: font-size;
+  transition-property: all;
   transition-duration: 0.1s;
-  text-decoration: underline;
-  color: lightblue;
+  color: whitesmoke;
 }
 .project-tile h2:hover {
-  font-size: 1.55em;
+  text-decoration: underline;
 }
 #contact {
   display: flex;
