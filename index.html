@@ -62,6 +62,15 @@
   <iframe id="contact-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSeLFCZZiLU1lmikeXUzNs6siEe2XTTo0I1u8HcVxoF-7KdhBg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </div>
 <script>
+var iframe = document.getElementById("contact-iframe");
+    
+    // Adjusting the iframe height onload event
+    iframe.onload = function(){
+        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+    }
+
+var prevScrollpos = window.pageYOffset;
+
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
