@@ -10,7 +10,7 @@ img {
   max-height: 200px;
   transition: transform 0.1s;
 }
-img:hover {
+.gh-logo:hover {
   transform: scale(1.1);
 }
 #navbar {
