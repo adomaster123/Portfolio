@@ -6,11 +6,21 @@ body {
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
-svg {
-  padding: 0vw 5vw 0vw 5vw;
-  overflow: visible;
-  max-height: 400px;
-}
+.splash {
+  font-family: "Marck Script";
+  font-size: 21vw;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 21vw;
+  background: linear-gradient(180deg, #fff 50% , #111);
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  margin: -0.2em -0.2em -0.2em -0.2em;
+ }
+
 img {
   max-height: 200px;
   transition: transform 0.1s;
