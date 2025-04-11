@@ -11,7 +11,7 @@ html {
   font-family: "Marck Script";
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/MarckScript-Regular.ttf) format("woff2"),
+  src: url(fonts/MarckScript-Regular.woff2) format("woff2"),
     url(fonts/MarckScript-Regular.ttf) format("truetype");
 
   /* Tells the browser whether and how long to wait for web fonts to
