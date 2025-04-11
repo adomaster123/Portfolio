@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@fontsource/marck-script": "^5.2.5",
     "netlify-cli": "^19.0.0"
   }
 }
