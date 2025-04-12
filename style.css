@@ -121,12 +121,16 @@ a {
   background-color: white;
 }
 #projects {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
   padding-top: 35px;
   padding-bottom: 35px;
   text-align: center;
   color: white;
   background-color: #111;
-  justify-items: center;
 }
 #project-header{
   font-size: 40px;
